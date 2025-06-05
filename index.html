@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VETonline</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <img src="./Imágenes/logo.png" alt="VETonline Logo" class="logo-img" />
+    </div>
+    <div class="nav-links">
+      <a href="#">Lorem</a>
+      <a href="#">Lorem</a>
+    </div>
+  </nav>
+  <div class="contenedor">
+    <h1 class="titulo">¡Bienvenidos!</h1>
+    <img src="./Imágenes/imagen.png" alt="Mascotas" class="imagen-mascotas">
+    <div class="contenedor-boton">
+      <div class="izquierda">
+        <p class="seccion">Mascotas</p>
+        <img src="./Imágenes/vineta-violeta.svg" alt="Decoración" class="decoracion">
+      </div>
+      <div class="derecha">
+        <button class="boton">INGRESAR MASCOTA</button>
+      </div>
+    </div>
+  </div>
+  <div class="formulario-contenedor">
+    <form class="formulario">
+      <div class="form-row">
+        <div class="form-group">
+          <label>Mascota<span class="obligatorio">*</span></label>
+          <div class="radio-group">
+            <label><input type="radio" name="mascota" required> Gato</label>
+            <label><input type="radio" name="mascota" required> Perro</label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Nombre<span class="obligatorio">*</span></label>
+          <input type="text" required>
+        </div>
+        <div class="form-group">
+          <label>Apodo<span class="obligatorio">*</span></label>
+          <input type="text" required>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Edad aproximada<span class="obligatorio">*</span></label>
+          <input type="text" required>
+        </div>
+        <div class="form-group">
+          <label>Sexo</label>
+          <input type="text">
+        </div>
+        <div class="form-group">
+          <label>Descripción física<span class="obligatorio">*</span></label>
+          <input type="text" required>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group caracteristicas">
+          <label>Características</label>
+          <div class="caracteristica-extra">
+            <select>
+              <option>Color principal</option>
+            </select>
+            <input type="text" placeholder="Ingresar característica">
+          </div>
+          <a href="#" class="link-azul">+ Añadir característica</a>
+        </div>
+        <div class="form-group fotos">
+          <label>Fotos</label>
+          <input type="file">
+          <a href="#" class="link-azul">+ Añadir foto</a>
+        </div>
+      </div>
+      <p class="nota"><span class="obligatorio">*</span> Los campos marcados con (*) son obligatorios</p>
+      <div class="form-row end">
+        <button type="submit" class="boton-guardar">GUARDAR</button>
+      </div>
+    </form>
+  </div>
+  <footer class="footer">
+        <div class="footer-curva">
+        <div class="footer-contenido">
+            <h2>Contactanos</h2>
+            <div class="decoracion"></div>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh<br>
+            euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad<br>
+            minim veniam, quis nostrud exerci tation ullamcorper suscipit</p>
+            <div class="contacto">
+            <div class="item">
+                <img src="https://cdn-icons-png.flaticon.com/512/159/159832.png" alt="Teléfono">
+                <h4>Teléfono</h4>
+                <p>+54 9 11 5162 0516</p>
+            </div>
+            <div class="item">
+                <img src="https://cdn-icons-png.flaticon.com/512/561/561127.png" alt="Mail">
+                <h4>Mail</h4>
+                <p>info@vetonline.com</p>
+            </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright © 2021. Todos los derechos reservados. Realizado por Think B</p>
+        </div>
+        </div>
+  </footer>
+</body>
+</html>
